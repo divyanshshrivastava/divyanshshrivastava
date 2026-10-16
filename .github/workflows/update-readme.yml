@@ -30,7 +30,7 @@ jobs:
         run: |
           # Configure personal identity so commits count toward your contribution graph
           git config user.name "Divyansh Shrivastava"
-          git config user.email "<ID>+divyanshshrivastava@users.noreply.github.com"
+          git config user.email "171681495+divyanshshrivastava@users.noreply.github.com"
 
       - name: Run auto-commit updater
         env:
