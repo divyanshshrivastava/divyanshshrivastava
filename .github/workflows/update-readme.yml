@@ -1,0 +1,40 @@
+name: Update Profile README & Commits
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # Daily at 18:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history so today's commit count can be verified
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure Git Identity
+        run: |
+          # Configure personal identity so commits count toward your contribution graph
+          git config user.name "Divyansh Shrivastava"
+          git config user.email "<ID>+divyanshshrivastava@users.noreply.github.com"
+
+      - name: Run auto-commit updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python make_commits.py
