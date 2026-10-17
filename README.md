@@ -55,13 +55,13 @@ $ echo "Location: Indore, India"
 
 <!-- AUTO-UPDATE:START -->
 ### Recently worked on
+- [Cricguess](https://github.com/divyanshshrivastava/Cricguess) - a free cricketer guessing game with a daily puzzle and unlimited mode. Guess the player from 6 clues. Built with vanilla JS and a plugin-based architecture for adding new game modes easily.
 - [Dhun](https://github.com/divyanshshrivastava/Dhun) - Dhun is a song-guessing web game built around Indian music. Each round plays a short snippet that gets longer with every wrong guess, from a fraction of a second up to 15 seconds, and you get 6 tries to name the song. Built to run entirely on free tiers.
 - [StayFinder](https://github.com/divyanshshrivastava/StayFinder) - A full-stack Airbnb-style listing platform built with Node.js, Express, MongoDB, and EJS. Users can register, browse listings, create/edit/delete their own listings, and leave reviews.
 - [dam-break-flood-simulator](https://github.com/divyanshshrivastava/dam-break-flood-simulator) - no description
 - [Glamour-Buildathon](https://github.com/divyanshshrivastava/Glamour-Buildathon) - no description
-- [React-Weather-App](https://github.com/divyanshshrivastava/React-Weather-App) - no description
 
-_Last updated: 16 Oct 2026, 10:04:57 UTC_
+_Last updated: 17 Oct 2026, 06:30:54 UTC (run 1/1)_
 <!-- AUTO-UPDATE:END -->
 
 ---
