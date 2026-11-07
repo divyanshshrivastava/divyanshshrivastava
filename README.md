@@ -55,13 +55,13 @@ $ echo "Location: Indore, India"
 
 <!-- AUTO-UPDATE:START -->
 ### Recently worked on
+- [tutorialmod](https://github.com/divyanshshrivastava/tutorialmod) - A custom Minecraft 1.21.1 mod built with Java and Fabric, introducing new items, Ruby ores, custom blocks, crafting recipes, and loot tables.
 - [Cricguess](https://github.com/divyanshshrivastava/Cricguess) - a free cricketer guessing game with a daily puzzle and unlimited mode. Guess the player from 6 clues. Built with vanilla JS and a plugin-based architecture for adding new game modes easily.
 - [spam-ham-detector](https://github.com/divyanshshrivastava/spam-ham-detector) - An NLP-powered SMS spam & ham classification pipeline built with Scikit-Learn and Multinomial Naive Bayes, achieving ~98.7% accuracy.
 - [Dhun](https://github.com/divyanshshrivastava/Dhun) - Dhun is a song-guessing web game built around Indian music. Each round plays a short snippet that gets longer with every wrong guess, from a fraction of a second up to 15 seconds, and you get 6 tries to name the song. Built to run entirely on free tiers.
 - [StayFinder](https://github.com/divyanshshrivastava/StayFinder) - A full-stack Airbnb-style listing platform built with Node.js, Express, MongoDB, and EJS. Users can register, browse listings, create/edit/delete their own listings, and leave reviews.
-- [dam-break-flood-simulator](https://github.com/divyanshshrivastava/dam-break-flood-simulator) - no description
 
-_Last updated: 05 Nov 2026, 22:58:01 UTC (run 3/3)_
+_Last updated: 07 Nov 2026, 15:23:51 UTC (run 1/1)_
 <!-- AUTO-UPDATE:END -->
 
 ---
